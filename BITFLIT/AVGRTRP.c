@@ -1,6 +1,6 @@
 //something is wrong in this one which I am not noticing now !
 
-
+//this is the simple basic correct program. something maybe I am getting wrong !
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -35,12 +35,12 @@ int main()
            for(int j=i+1;j<y;j++)
            {
                
-               if(j<y-1 && arr[1][j]==arr[1][j+1]){continue;}
+               
             if(arr[1][i]>=arr[1][j])
             {
                 
                 rope=rope+(arr[1][i]*(abs(arr[0][i]-arr[0][j])));
-                if(arr[1][i]==arr[1][j]){i++;break;}
+               
             }
             else
             {
